@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- Project Guideline -->
+# Usage
+Toolbar Usage Instructions
+The toolbar allows users to dynamically add form fields by specifying input types, labels, and additional options like dropdown values, checkbox options, or radio button values. Follow the steps below to utilize the toolbar:
+
+Click the "Set Input Type" button on the toolbar.
+
+In the popup that appears:
+
+Select the desired input type from the dropdown menu (e.g., text, checkbox, select, radio).
+Enter a label name for the input field.
+For dropdown, checkbox, or radio input types:
+If selecting "Dropdown" or "Select","Checkbox","Radio", specify the option corresponding to the labels and add to it.
+
+After filling out the form, the input values will be collected.
+
+To view the form values, open the browser console.
+
+You will find the form values displayed in JSON format.

@@ -29,7 +29,7 @@ function Input(props) {
           </label>
             <input type="checkbox" value={option}/> */}
             <label class="checkbox-container">
-            <input type="checkbox" class="custom-checkbox" value={option} name={option} onChange={onChangeHandler}/>
+            <input type="checkbox" class="custom-checkbox" value={option} name={`${label}_${option}`} onChange={onChangeHandler}/>
             {/* <span class="custom-checkbox"></span> */}
             <span class="checkbox-label">{option}</span>
             </label>
